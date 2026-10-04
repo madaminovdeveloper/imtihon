@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .container{
+  padding: 15px 0px;
+}
+.hero  {
+  background-color: #F2F2F2;
+}
+.hero .container p{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.hero .container h1{
+  padding: 20px 0px;
+}
+
+.hero .container button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.hero .container img{
+  padding: 50px 0px;
+}
+main section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main section .cards .box{
+  padding-top: 40px;
+  margin-bottom: 10px;
+
+}
+
+main section .cards .box button{
+  padding: 5px 20px; 
+  border-color: black;
+  background-color: rgba(128, 128, 128, 0.547);
+  margin: 20px;
+  margin-left: 60px; 
+}
+
+footer .container{
+padding: 20px 0px;
+}
+
+
+/* Container - kontentni o'rtaga keltirish va chetlardan joy tashlash */
+.detail-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Sarlavha */
+.detail-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* Asosiy blok (rasmlar va ma'lumotlar yonma-yon bo'lishi uchun) */
+.detail-grid {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.detail-left {
+  flex: 1.2;
+}
+
+.detail-right {
+  flex: 0.8;
+}
+
+/* Rasm ramkalari */
+.detail-main-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  background-color: #f4f4f4;
+}
+
+.detail-thumbs {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.detail-thumb-item {
+  flex: 1;
+  height: 85px;
+  object-fit: cover;
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+/* O'ng qism */
+.detail-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.detail-desc-short {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #333;
+  max-width: 240px;
+}
+
+.detail-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #842c68;
+}
+
+/* Tablar */
+.detail-tabs {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.detail-tab-btn {
+  font-size: 11px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  padding-bottom: 8px;
+}
+
+.detail-tab-btn.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+  margin-bottom: -9px;
+}
+
+.detail-tab-content {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #555;
+}
